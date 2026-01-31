@@ -106,6 +106,7 @@ void main::update_dir(int sx, int sy){
   if (sx < 0) digitalWrite(_XDir, LOW);
   if (sy > 0) digitalWrite(_YDir, LOW);
   if (sy < 0) digitalWrite(_YDir, HIGH);
+  
 }
 
 void main::go_to(int XSteps, int YSteps){
